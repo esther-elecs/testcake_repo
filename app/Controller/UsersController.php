@@ -2,6 +2,8 @@
 //http://book.cakephp.org/2.0/en/tutorials-and-examples/blog-auth-example/auth.html
 class UsersController extends AppController {
 
+
+
 	public $name = 'Users';
 
 	public function beforeFilter() {
