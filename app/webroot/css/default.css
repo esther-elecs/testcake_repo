@@ -1,0 +1,176 @@
+.header-tab, .header-tab li {
+	list-style: none;
+	display: inline;
+}
+a {
+	text-decoration: none;
+}
+
+#header li a.selected {
+	color: #EC7C19;
+}
+
+ul.horizontal li {
+	display: inline;
+}
+.smallbox {
+	width: 100px;
+}
+.checkbox
+{
+padding-left: 15px;
+display:inline;
+}
+#layout{
+	width:580px;
+	table-layout: fixed;
+}
+table{
+	width: 100%;
+}
+
+@media print
+{
+.noprint {
+	display:none;
+}
+table{
+	width: 100%;
+}
+* {
+ 	margin: 0 !important; padding: 0 !important;
+}
+
+html, body {
+height:100%;
+background: #FFF;
+font-size: 8pt;
+ margin: 0px;
+	}
+div.hidden {
+overflow: hidden;
+position:absolute;
+width:100%;
+height:100%;
+border-left: hidden;
+}
+.three_column_width{
+		width: 43.9px;
+}
+.one_column_width{
+	width: 147px;
+}
+.four_column_width{
+	width: 67.8px;
+}
+/*.four_column_second{
+	width: 60px;
+	color:green;
+}
+.four_column_third{
+	width: 68px;
+	color:blue;
+}
+.four_column_fourth{
+	width: 62px;
+	color:pink;
+}*/
+.attendances .index .hidden th{
+	text-align: center;
+	font-weight: bold;
+}
+
+.attendances th{
+font-weight: bold;
+}
+/*today*/
+/*table{
+	table-layout: auto;
+}*/
+/*.middle_span{
+	width: 50px;
+}*/
+.third_width{
+	width: 50px;
+}
+.
+#middle_width{
+	width: 10px;
+}
+.5_column_width{
+	width: 10px;
+}
+/*#middle_width{
+	width: 10px;
+}*/
+#second_table{
+	table-layout: auto;
+	border:1px;
+}
+#last_column_width{
+	width: 60px;
+}
+#second_width{
+	width:30px;
+}
+.first_table{
+	/*table-layout: fixed;*/
+	border:1px;
+}
+.last{
+	width:68px;
+}
+.middle_align{
+	width:185px;
+}
+.tax{
+	width: 105px;
+}
+/*table {
+    border-collapse: collapse;
+}*/
+table{
+	padding-left:2em;
+    padding-right:2em;
+    margin-left:2em;
+    margin-right:2em;
+}
+.middle{
+	vertical-align: middle;
+
+}
+}
+
+
+@page {
+ size:A4 landscape;
+  margin: 5mm;
+}
+
+.attendances th{
+	text-align: center;
+	font-weight: bold;
+	/*width: 0px;*/
+}
+.print th{
+	width: 0px;
+}
+.align_center{
+	text-align:center;
+	font-weight: bold;
+}
+#bold{
+	font-weight:bold
+}
+.last_column{
+	width: 83px;
+}
+/*.one_column{
+	width: 378px;
+}*/
+/*table{
+	padding-left:50px;
+    padding-right:50px;
+    margin-left: 50px;
+    margin-right:50px;
+}*/
